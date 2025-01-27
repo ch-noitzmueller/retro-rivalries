@@ -1,0 +1,27 @@
+.heading {
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/VT323-Regular.ttf?fileID=12800000&guid=095f5b5f4be5f5782acdc4274180de49&type=3#VT323-Regular");
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/VT323-Regular.ttf?fileID=12800000&guid=095f5b5f4be5f5782acdc4274180de49&type=3#VT323-Regular");
+    font-size: 28px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    align-self: auto;
+    align-items: stretch;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: scale;
+}
+
+.button:hover {
+    scale: 1.05 1.05;
+}

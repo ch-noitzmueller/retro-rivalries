@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/StartScreen.uss?fileID=7433441132597879392&amp;guid=51899e488ada8225791cc22fceac27e8&amp;type=3#StartScreen" />
+    <ui:VisualElement name="Screen" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.49);">
+        <ui:VisualElement name="Content" style="flex-grow: 1; justify-content: center; align-items: stretch; align-self: center;">
+            <ui:Label text="Game Over!" name="WinnerLabel" class="heading" style="margin-bottom: 30px;" />
+            <ui:Button text="Restart Game" name="RestartButton" class="button" style="margin-bottom: 15px;" />
+            <ui:Button text="Main Menu" name="MainMenuButton" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

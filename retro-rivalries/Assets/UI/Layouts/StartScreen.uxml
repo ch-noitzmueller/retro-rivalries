@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/StartScreen.uss?fileID=7433441132597879392&amp;guid=51899e488ada8225791cc22fceac27e8&amp;type=3#StartScreen" />
+    <ui:VisualElement name="Screen" style="flex-grow: 1;">
+        <ui:VisualElement name="Content" style="flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:VisualElement name="Logo" style="flex-grow: initial; background-image: url(&quot;project://database/Assets/Sprites/logo.png?fileID=2800000&amp;guid=53246e941c994a9b7858e4d46bbd3f77&amp;type=3#logo&quot;); background-size: contain; flex-basis: auto; width: 50%; height: 50%; justify-content: flex-start; margin-bottom: 60px;" />
+            <ui:Button text="Start Game" name="StartButton" class="button" style="align-self: center; transition-property: all; transition-duration: 0.2s; transition-timing-function: ease; transition-delay: 0s; max-width: 200px; padding-left: 30px; padding-right: 30px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
